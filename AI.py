@@ -193,7 +193,7 @@ def main():
         data = pd.read_csv(file_path)
         
         # Preprocessing data
-        features = ['Appliances', 'lights', 'Suuh Luar', 'Kelembapan Relatif Luar', 'Kecepatan Angin']
+        features = ['Appliances', 'lights', 'Suhu Luar', 'Kelembapan Relatif Luar', 'Kecepatan Angin']
         X = data[features]
         y = data['Appliances']
         
